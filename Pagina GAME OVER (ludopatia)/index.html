@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over - Concientización sobre Ludopatía</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación por puntos -->
+    <div class="nav-dots">
+        <div class="nav-dot active" data-section="hero"></div>
+        <div class="nav-dot" data-section="stats"></div>
+        <div class="nav-dot" data-section="risks"></div>
+        <div class="nav-dot" data-section="articles"></div>
+    </div>
+    
+    <!-- Sección Hero -->
+    <section id="hero">
+        <div class="particles" id="particles-1"></div>
+        <div class="container">
+            <h1 class="hero-title"><span class="primary">GAME</span> <span class="accent">OVER</span></h1>
+            <p class="hero-subtitle">Cuando el juego deja de ser diversión y se convierte en una adicción, es momento de decir "Game Over"</p>
+            
+            <!-- Banner 3D -->
+            <div class="banner-3d">
+                <div class="object dice" data-type="dice">
+                    <div class="dice-face face-1">
+                        <div class="dice-dot"></div>
+                    </div>
+                    <div class="dice-face face-2">
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                    </div>
+                    <div class="dice-face face-3">
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                    </div>
+                    <div class="dice-face face-4">
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                    </div>
+                    <div class="dice-face face-5">
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                    </div>
+                    <div class="dice-face face-6">
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                        <div class="dice-dot"></div>
+                    </div>
+                </div>
+                
+                <div class="object card" data-type="card">
+                    <div class="card-face card-front">
+                        <div class="card-top">
+                            <span>A</span>
+                            <span style="color: var(--primary);">♥</span>
+                        </div>
+                        <div class="card-suit" style="color: var(--primary);">♥</div>
+                        <div class="card-bottom">
+                            <span>A</span>
+                            <span style="color: var(--primary);">♥</span>
+                        </div>
+                    </div>
+                    <div class="card-face card-back"></div>
+                </div>
+                
+                <div class="object slot-machine" data-type="slot">
+                    <div class="slot-body">
+                        <div class="slot-top"></div>
+                        <div class="slot-display">
+                            <div class="slot-reel">
+                                <div class="slot-symbol">7</div>
+                            </div>
+                            <div class="slot-reel">
+                                <div class="slot-symbol">7</div>
+                            </div>
+                            <div class="slot-reel">
+                                <div class="slot-symbol">7</div>
+                            </div>
+                        </div>
+                        <div class="slot-controls">
+                            <button class="slot-button"></button>
+                            <button class="slot-button"></button>
+                        </div>
+                        <div class="slot-base"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="hero-subtitle">Haz clic en los elementos para conocer los riesgos del juego</p>
+            <p class="hero-subtitle">Mantén presionado y arrastra para mover los elementos 3D</p>
+        </div>
+    </section>
+    
+    <!-- Sección de Estadísticas -->
+    <section id="stats">
+        <div class="particles" id="particles-2"></div>
+        <div class="container">
+            <h2 class="section-title">El <span class="accent">Problema</span> Real</h2>
+            
+            <!--  Pantalla de casino online -->
+            <div class="banner-3d">
+                <div class="object online-casino" data-type="online">
+                    <div class="laptop">
+                        <div class="laptop-screen">
+                            <div class="screen-content">
+                                <div class="casino-logo">CASINO ONLINE</div>
+                                <div class="game-window">
+                                    <div class="game-symbols">
+                                        <div class="game-symbol">7</div>
+                                        <div class="game-symbol">🍒</div>
+                                        <div class="game-symbol">$</div>
+                                        <div class="game-symbol">BAR</div>
+                                    </div>
+                                </div>
+                                <div class="promo-text">¡Juega ahora y gana hasta x1000!</div>
+                            </div>
+                        </div>
+                        <div class="laptop-keyboard"></div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-number">2-3%</div>
+                    <div class="stat-text">de la población mundial sufre de ludopatía</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5x</div>
+                    <div class="stat-text">más probabilidades con casinos online</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">40%</div>
+                    <div class="stat-text">aumento durante la pandemia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15-35</div>
+                    <div class="stat-text">edad de mayor riesgo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Riesgos -->
+    <section id="risks">
+        <div class="particles" id="particles-3"></div>
+        <div class="container">
+            <h2 class="section-title">Riesgos y <span class="accent">Consecuencias</span></h2>
+            <div class="risks-container">
+                <div class="risk-card">
+                    <h3>Problemas Financieros</h3>
+                    <p>Pérdida de ahorros, endeudamiento extremo, bancarrota y problemas legales por deudas de juego.</p>
+                </div>
+                <div class="risk-card">
+                    <h3>Salud Mental</h3>
+                    <p>Ansiedad, depresión, trastornos del sueño, ideación suicida y otros problemas psicológicos graves.</p>
+                </div>
+                <div class="risk-card">
+                    <h3>Relaciones Personales</h3>
+                    <p>Conflictos familiares, divorcio, pérdida de amistades y aislamiento social progresivo.</p>
+                </div>
+                <div class="risk-card">
+                    <h3>Área Laboral</h3>
+                    <p>Bajo rendimiento, absentismo, pérdida de empleo y dificultades para mantener un trabajo estable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Artículos -->
+    <section id="articles">
+        <div class="particles" id="particles-4"></div>
+        <div class="container">
+            <h2 class="section-title">Artículos <span class="accent">Informativos</span></h2>
+            <p>Conoce más sobre la ludopatía y sus efectos a través de estos artículos especializados.</p>
+            
+            <div class="articles-container">
+                <div class="article-card">
+                    <h3>Ludopatía: comprensión básica del juego patológico</h3>
+                    <div class="article-meta">
+                        <span>Por: Dr. Jesús Antonio Ramos Brieva</span>
+                        <span>Noviembre de 2006</span>
+                    </div>
+                    <p class="article-excerpt"> El juego es sano cuando es recreativo, pero se vuelve un problema cuando interviene el azar, dando lugar a la ludopatía. </p>
+                    <a href="https://www.researchgate.net/profile/Jesus-Ramos-Brieva/publication/28140746_Ludopatia_el_otro_lado_del_juego/links/09e415087ba109c9af000000/Ludopatia-el-otro-lado-del-juego.pdf" class="btn">Leer más</a>
+                </div>
+                
+                <div class="article-card">
+                    <h3> Esquemas mentales y distorsiones en la ludopatía</h3>
+                    <div class="article-meta">
+                        <span>Por: Marly Johana Bahamón Muñetón</span>
+                        <span>2013 (Vol. 11, Nº 2)</span>
+                    </div>
+                    <p class="article-excerpt">Analiza cómo ciertos pensamientos erróneos y esquemas mentales disfuncionales aumentan la probabilidad de desarrollar juego patológico en jugadores de casino.</p>
+                    <a href="http://www.scielo.org.co/scielo.php?pid=S1657-89612013000200006&script=sci_arttext" class="btn">Leer más</a>
+                </div>
+                
+                <div class="article-card">
+                    <h3> El juego online y las apuestas deportivas en jóvenes españoles</h3>
+                    <div class="article-meta">
+                        <span>Por: María Josefa Vázquez-Fernández y Evaristo Barrera-Algarín</span>
+                        <span>6 de Agosto de 2020</span>
+                    </div>
+                    <p class="article-excerpt">El artículo estudia cómo los jóvenes de España (18 a 30 años) están entrando en la ludopatía principalmente por las apuestas deportivas online. El uso constante de celulares y plataformas digitales facilita el juego, generando deudas y problemas personales, familiares y emocionales.</p>
+                    <a href="https://ojs.haaj.org/?journal=haaj&page=article&op=view&path%5B%5D=500&path%5B%5D=pdf" class="btn">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="disclaimer">
+            <p><strong>AVISO IMPORTANTE:</strong> Esta página tiene fines exclusivamente informativos y educativos. No sustituye el asesoramiento profesional. Si crees que tú o alguien que conoces puede tener un problema con el juego, busca ayuda de profesionales de la salud mental.</p>
+        </div>
+        <p>© 2025 Game Over - Concientización sobre Ludopatía</p>
+    </footer>
+    
+    <!-- Modal para información de objetos 3D -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">Información sobre Ludopatía</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <p id="modal-description">Aquí aparecerá información detallada sobre el elemento seleccionado.</p>
+                <div class="object-info" id="object-info">
+                    <p><span class="highlight">Consejo:</span> Establece límites de tiempo y dinero cuando juegues.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
