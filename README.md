@@ -1,6 +1,6 @@
 # Trabajos-Hombre-Maquina
 
-En este repositorio se agregaran las ultimas actividades dejadas en la materia de Hombre-Maquina
+En este repositorio se agregaran las ultimas actividades dejadas en la materia de Hombre-Maquina y los proyectos grupales
 ## Herramientas empleadas
 -CSS
 
