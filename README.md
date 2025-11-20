@@ -3,7 +3,9 @@
 En este repositorio se agregaran las ultimas actividades dejadas en la materia de Hombre-Maquina
 ## Herramientas empleadas
 -CSS
+
 -JavaScript
+
 -HTML
 
 ## Paso a paso para su uso
