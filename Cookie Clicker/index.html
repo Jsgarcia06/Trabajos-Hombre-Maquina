@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie-Block Clicker</title>
+</head>
+<body>
+    <section class="Hero">
+        <div id="hero" class="HeroThree"></div>
+
+        <div class="scoreBox" id="scoreBox">
+            <h2>Puntaje</h2>
+            <div id="score">0</div>
+            <div class="perClick">Por click: <span id="perClick">1</span></div>
+        </div>
+
+        <div class="upgrades" id="upgrades">
+            <button class="upg" id="upg0">
+                <span class="upg-icon">+</span>
+                <span class="upg-name">Click Simple</span>
+                <span class="cost" id="cost0">10</span>
+                <span class="owned" id="owned0">x0</span>
+            </button>
+            <button class="upg" id="upg1">
+                <span class="upg-icon">×2</span>
+                <span class="upg-name">Multiplicador</span>
+                <span class="cost" id="cost1">50</span>
+                <span class="owned" id="owned1">x0</span>
+            </button>
+            <button class="upg" id="upg2">
+                <span class="upg-icon">++</span>
+                <span class="upg-name">Click Potente</span>
+                <span class="cost" id="cost2">200</span>
+                <span class="owned" id="owned2">x0</span>
+            </button>
+            <button class="upg" id="upg3">
+                <span class="upg-icon">★</span>
+                <span class="upg-name">Multiplicador Épico</span>
+                <span class="cost" id="cost3">1000</span>
+                <span class="owned" id="owned3">x0</span>
+            </button>
+        </div>
+
+        <div class="floating-texts" id="floatingTexts"></div>
+        <div class="particles" id="particles"></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

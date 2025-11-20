@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras 3D Interactivas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Figuras 3D Interactivas</h1>
+        <p class="subtitle">Explora estas figuras geométricas tridimensionales</p>
+    </header>
+
+    <main>
+        <section class="figures-container">
+           
+            <div class="figure-card">
+                <h2 class="figure-title">Cubo</h2>
+                <div class="figure-canvas" id="cube-container"></div>
+                <p class="figure-description">
+                    Un cubo es un poliedro regular con seis caras cuadradas iguales, 
+                    doce aristas y ocho vértices. Es una de las formas tridimensionales más básicas.
+                </p>
+            </div>
+
+          
+            <div class="figure-card">
+                <h2 class="figure-title">Esfera</h2>
+                <div class="figure-canvas" id="sphere-container"></div>
+                <p class="figure-description">
+                    Una esfera es una figura geométrica perfectamente redonda en tres dimensiones. 
+                    Todos los puntos de su superficie están equidistantes de su centro.
+                </p>
+            </div>
+
+           
+            <div class="figure-card">
+                <h2 class="figure-title">Cilindro</h2>
+                <div class="figure-canvas" id="cylinder-container"></div>
+                <p class="figure-description">
+                    Un cilindro es una figura tridimensional con dos bases circulares paralelas 
+                    y una superficie curva que las conecta. Es común en objetos cotidianos como latas.
+                </p>
+            </div>
+        </section>
+
+        <section class="descriptions-container">
+            <div class="description-card">
+                <h3 class="description-title">Propiedades del Cubo</h3>
+                <p>• 6 caras cuadradas</p>
+                <p>• 12 aristas</p>
+                <p>• 8 vértices</p>
+                <p>• Todas las caras son congruentes</p>
+            </div>
+
+            <div class="description-card">
+                <h3 class="description-title">Propiedades de la Esfera</h3>
+                <p>• Superficie completamente curva</p>
+                <p>• Sin aristas ni vértices</p>
+                <p>• Simetría perfecta en todas direcciones</p>
+                <p>• Radio constante desde el centro</p>
+            </div>
+
+            <div class="description-card">
+                <h3 class="description-title">Propiedades del Cilindro</h3>
+                <p>• 2 bases circulares</p>
+                <p>• 1 superficie lateral curva</p>
+                <p>• Sin vértices</p>
+                <p>• 2 aristas curvas</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Figuras 3D Interactivas - Geometría tridimensional</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
